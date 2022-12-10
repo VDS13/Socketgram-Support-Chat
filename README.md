@@ -49,7 +49,7 @@ The project is a technical support chat, with the ability to send messages both 
 3. [Client block](https://github.com/VDS13/Socketgram-Support-Chat/blob/main/user_client/README.md#clientphp)
 	- [Initial setup](https://github.com/VDS13/Socketgram-Support-Chat/blob/main/user_client/README.md#startuserclient)
 	- [Client block events](https://github.com/VDS13/Socketgram-Support-Chat/blob/main/user_client/README.md#eventuser)
-	- [Telegram-bot](https://github.com/VDS13/Socketgram-Support-Chatblob/main/user_client/README.md#usertlgrm)
+	- [Telegram-bot](https://github.com/VDS13/Socketgram-Support-Chat/blob/main/user_client/README.md#usertlgrm)
 
 ## <a name="start"></a> Principle of operation
 
