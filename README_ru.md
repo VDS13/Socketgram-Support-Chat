@@ -9,7 +9,7 @@
 <a href="https://core.telegram.org/bots/api">
 	<img src="https://img.shields.io/badge/Bot%20API-v6.3-f36caf.svg?style=flat-square" alt="Bot API Version" />
 </a>
-<a href="https://github.com/VDS13/socket-io-telegram-chat-support">
+<a href="https://github.com/VDS13/Socketgram-Support-Chat">
 	<img src="https://img.shields.io/github/v/release/VDS13/Socketgram-Support-Chat" alt="Project Version" />
 </a>
 </div>
