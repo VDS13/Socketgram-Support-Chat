@@ -1,0 +1,14 @@
+module.exports.writemessage = 'Написать сообщение техподдержке';
+module.exports.auth = 'Авторизоваться в ЛК';
+module.exports.answeradm = 'Ответ от ';
+module.exports.answermodule = 'Уведомление от ';
+module.exports.select = 'Выберите пункт:';
+module.exports.contacts = 'Контакты';
+module.exports.back = 'Назад';
+module.exports.enterlogin = 'Введите логин(К примеру: id123456):';
+module.exports.enterloginhtml = '<b>Введите логин</b>(<i>К примеру: id123456</i>):';
+module.exports.enterpswd = 'Введите пароль:';
+module.exports.enterpswdhtml = '<b>Введите пароль</b>:';
+module.exports.returntostart = 'Для возврата в стартовое меню нажмите "Назад":';
+module.exports.error = '<b>Неверный логин или пароль.</b>';
+module.exports.hello = 'Приветствуем вас в боте ';

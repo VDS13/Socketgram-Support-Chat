@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    padding-top: 7%;
+
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.form-signin {
+    padding: 15% 50px;
+}
+.form-img {
+    background-color: #f5f5f5;
+}

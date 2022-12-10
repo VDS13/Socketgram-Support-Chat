@@ -1,0 +1,14 @@
+module.exports.writemessage = 'Write a message to technical support';
+module.exports.auth = 'Log in to PA';
+module.exports.answeradm = 'Answer from ';
+module.exports.answermodule = 'Notice from ';
+module.exports.select = 'Select a menu item:';
+module.exports.contacts = 'Contacts';
+module.exports.back = 'Back';
+module.exports.enterlogin = 'Enter login(For example: id123456):';
+module.exports.enterloginhtml = '<b>Enter login</b>(<i>For example: id123456</i>):';
+module.exports.enterpswd = 'Enter password:';
+module.exports.enterpswdhtml = '<b>Enter password</b>:';
+module.exports.returntostart = 'To return to the start menu, press "Back":';
+module.exports.error = '<b>Wrong login or password.</b>';
+module.exports.hello = 'Welcome to the bot ';

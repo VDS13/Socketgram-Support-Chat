@@ -1,0 +1,24 @@
+{
+  "name": "Socketgram",
+  "version": "0.1.0",
+  "description": "Simple chat by using Node.js, Socket.IO and node-telegram-bot-api",
+  "main": "index.js",
+  "scripts": {
+    "createmysqldb": "mysql -u root -e \"CREATE DATABASE test;\" -p",
+    "mysqltables": "mysql -u root -D chat -p < \"config/db/mysql.sql\"",
+    "mysqltables_anotherdb": "mysql -u root -D chat -p < \"config/db/mysql_anotherdb.sql\"",
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "d.vyazin",
+    "github": "https://github.com/VDS13/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.0",
+    "mysql2": "^2.3.3",
+    "node-telegram-bot-api": "^0.57.0",
+    "socket.io": "^4.4.1"
+  }
+}
