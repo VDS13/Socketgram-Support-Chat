@@ -82,4 +82,4 @@ io(DOMEN_SERVER, { transports : ['websocket', 'polling', 'flashsocket'], query :
 
 **The MIT License (MIT)**
 
-Copyright © 2022 Dmitry Vyazin
+Copyright © 2022-2023 Dmitry Vyazin
