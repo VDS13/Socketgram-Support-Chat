@@ -88,10 +88,10 @@ const dbtype = 'mysql';
  * @param {Object} db
 */
 const db = {
-	host: "localhost",
-	user: "server_chat",
-	database: "chat",
-	password: "yourpass"
+    host: "localhost",
+    user: "server_chat",
+    database: "chat",
+    password: "yourpass"
 };
 
 /**
@@ -100,10 +100,10 @@ const db = {
  * @param {Object} dbadmin
 */
 const dbadmin = {
-	host: "192.168.1.1",
-	user: "admin",
-	database: "users",
-	password: "yourpass"
+    host: "192.168.1.1",
+    user: "admin",
+    database: "users",
+    password: "yourpass"
 };
 /**
  * Request for user authentication in a third-party database (For example: 
@@ -127,7 +127,7 @@ const token = '0101010101:AAAAAAAAAAAAAAAAMQwQQwQQwQQwQQwQQwQ';
 */
 
 const tlgrm_option = {
-	polling: false
+    polling: false
 };
 
 /**
