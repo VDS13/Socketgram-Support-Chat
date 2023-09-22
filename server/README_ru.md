@@ -258,7 +258,10 @@ socket.on('take history', (
     }) => {});                      //Выгрузка из истории 10 сообщений пользователю
 ```
 ```js
-socket.on('disconnect', () => {});  //Выход из чата
+socket.on('disconnect');            //Выход из чата
+```
+```js
+socket.on('update admlist');        //Обновление списка администраторов на сервере
 ```
 
 К событиям Telegram Bot относятся `message`, `callback_query`(Контакты) и `/start`.

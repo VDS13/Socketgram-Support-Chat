@@ -258,7 +258,10 @@ socket.on('take history', (
     }) => {});                      //Uploading 10 messages from the history to the user
 ```
 ```js
-socket.on('disconnect', () => {});  //Exit chat
+socket.on('disconnect');            //Exit chat
+```
+```js
+socket.on('update admlist');        //Updating the list of administrators on the server
 ```
 
 Telegram Bot events include `message`, `callback_query`(Contacts) и `/start`.
