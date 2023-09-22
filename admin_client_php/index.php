@@ -20,8 +20,8 @@
         <link rel="stylesheet" href="style/css/new.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
-        <script src="js/my.js?010"></script>
-        <script src="config/const.js?010"></script>
+        <script src="js/my.js?020"></script>
+        <script src="config/const.js?020"></script>
     </head>
     <body class="bg-light">
       <main class="text-center">

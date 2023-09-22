@@ -20,8 +20,8 @@
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
-          <script src="js/auth.js?010"></script>
-          <script src="../config/const.js?010"></script>
+          <script src="js/auth.js?020"></script>
+          <script src="../config/const.js?020"></script>
         </head><span id="warning-container"><i data-reactroot=""></i></span>
         
         <body class="bg-light">

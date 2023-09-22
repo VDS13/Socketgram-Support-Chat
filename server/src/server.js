@@ -45,6 +45,14 @@ module.exports = class Socketgram {
         socket.on('take history', (data) => {
             this.takeHistory(data);
         });
+        socket.on('update admlist', () => {
+            this.admserv = new Map();
+            this.db.setChatName().then((result) => {
+                result.forEach((row) => {
+                    this.admserv.set(row['aid'], row['name'] + ' ' + conf.company);
+                })
+            });
+        });
         socket.on('disconnect', () => {
             this.disconnect(socket);
         });

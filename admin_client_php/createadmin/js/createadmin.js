@@ -44,6 +44,8 @@ $(document).ready(function(){
                         document.getElementById("err_msg").style.display = "block";
                     } else if (data == 1) {
                         alert('Admin created');
+                        const socket = io(DOMEN_SERVER, { transports : ['websocket', 'polling', 'flashsocket'], query : {[SERVER_KEY]: SERVER_PSWD}  });
+                        socket.emit('update admlist');
                         location.href = DOMEN;
                     } else {
                         document.getElementById("err_msg").innerHTML = "<em>Error, contact the administrator.</em>";

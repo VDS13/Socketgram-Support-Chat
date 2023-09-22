@@ -18,8 +18,8 @@
             <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="../config/const.js?010"></script>
-            <script type="text/javascript" src="js/chat.js?010"></script>
+            <script src="../config/const.js?020"></script>
+            <script type="text/javascript" src="js/chat.js?020"></script>
         </head>
         <body>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
