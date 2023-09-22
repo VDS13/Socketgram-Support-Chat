@@ -1,5 +1,5 @@
 {
-  "name": "Socketgram",
+  "name": "socketgram",
   "version": "0.2.0",
   "description": "Simple chat by using Node.js, Socket.IO and node-telegram-bot-api",
   "main": "index.js",
