@@ -210,6 +210,8 @@ module.exports = class Socketgram {
     newMessageFromTelegram(data) {
         this.db.newMessageFromTelegram(data).then((result) => 
             result.forEach((row) => {
+                if (this.onlineuser.size > 0)
+                    this.newMessageSocket(row, this.getByValue(row['cid']));
                 for (let admin of this.onlineadmin.keys()) {
                     this.newMessageSocket(row, admin);
                 }
