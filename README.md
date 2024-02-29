@@ -82,4 +82,4 @@ The response from the admin to the user is sent through the admini panel via Web
 
 **The MIT License (MIT)**
 
-Copyright © 2022-2023 Dmitry Vyazin
+Copyright © 2022-2024 Dmitry Vyazin
